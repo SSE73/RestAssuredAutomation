@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RestAssuredAutomationSuite">
+<!--<listeners>-->
+	<!--<listener class-name="utilities.Listeners" />-->
+<!--</listeners>-->
+	<test thread-count="5" name="RestAssuredAutomationTest">
+		<classes>
+			<class name="TC001_GET_Request" />
+			<class name="TC002_Post_Request" />
+			<class name="TC003_Get_Request" />
+			<class name="TC004_Get_Request_PrintAllHeaders" />
+			<class name="TC005_GET_ValidatingJSONResponse" />
+			<class name="TC006_GET_ExtractValuesOfEachNodeJSON" />
+			<class name="TC007_Get_Request_Autherization" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
